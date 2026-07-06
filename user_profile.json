@@ -1,0 +1,17 @@
+{
+  "life_situation": "Student",
+  "diet_pref": "No preference",
+  "currency_symbol": "\u20b9",
+  "focus_areas": [
+    "Budget & Expenses",
+    "Meals & Nutrition",
+    "Fitness",
+    "Study / Work Productivity"
+  ],
+  "goal_note": "",
+  "monthly_budget": 6000.0,
+  "ollama_model": "llama3.1",
+  "expenses": [],
+  "logged_meals": [],
+  "tasks": []
+}

@@ -59,6 +59,9 @@ what you told them.
   natural language ("spent 200 on groceries") and logs a structured expense
   entry a simple example of an agent taking action, not just chatting.
 
+<img width="2179" height="1480" alt="architecture_diagram" src="https://github.com/user-attachments/assets/4664539b-ff20-4d31-b8ae-41cb07b77e83" />
+
+
 ## Concepts demonstrated (rubric mapping)
 
 | Concept | Where |

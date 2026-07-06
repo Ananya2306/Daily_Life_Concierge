@@ -96,6 +96,37 @@ streamlit run app.py
 The sidebar shows which backend is active. If Ollama is running, it's used
 automatically no key needed. If not, you'll be prompted for a Gemini key.
 
+## Switching Between Ollama and Gemini (manual test)
+ 
+The app picks a backend automatically — but if you want to force-test the
+Gemini fallback path (e.g. to confirm both backends genuinely work), you
+need to manually stop Ollama first.
+ 
+**Windows:**
+```bash
+# Stop Ollama
+taskkill /IM ollama.exe /F
+taskkill /IM "ollama app.exe" /F
+ 
+# Confirm it's stopped — this should fail/refuse a connection
+curl http://localhost:11434
+```
+Then refresh the app in your browser. The sidebar will switch to
+"🟡 Ollama not detected — using Gemini fallback" and show a field to paste
+a Gemini API key.
+ 
+**Mac/Linux:**
+```bash
+pkill ollama
+```
+ 
+**To switch back to Ollama** (for free/unlimited daily use):
+```bash
+ollama serve
+```
+Then refresh the app again — it'll detect Ollama and switch back
+automatically, no restart of the app itself needed.
+
 ## Deployment
 
 - **Fully local**: run on your own machine with Ollama zero cost, zero

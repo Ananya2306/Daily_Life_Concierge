@@ -2,6 +2,9 @@
 
 **Kaggle AI Agents: Intensive Vibe Coding Capstone - Concierge Agents Track**
 
+<img width="1500" height="1000" alt="thumbnail_highres" src="https://github.com/user-attachments/assets/77466316-e8aa-4971-8d4e-169eea00f854" />
+
+
 ## Problem
 
 Everyone's daily life is different a student, a founder, a salaried employee,
